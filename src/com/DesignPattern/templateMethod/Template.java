@@ -8,5 +8,11 @@ package com.DesignPattern.templateMethod;
 * 
 */
 public abstract class Template {
-
+	protected abstract void step1();
+	protected abstract void step2();
+	
+	public void run(){
+		step1();
+		step2();
+	}
 }
