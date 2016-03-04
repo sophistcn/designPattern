@@ -11,7 +11,7 @@ public abstract class AbstractYellowHuman implements Human {
 
 	@Override
 	public void cry() {
-		System.out.println("yellow human");
+		System.out.println("yellow human cry");
 	}
 
 }

@@ -12,7 +12,7 @@ public class MaleHumanFactory extends AbstractHumanFactory {
 	@Override
 	public Human createYellowHuman() {
 		System.out.println("male yellow human");
-		return null;
+		return new MaleYellowHuman();
 	}
 
 }
