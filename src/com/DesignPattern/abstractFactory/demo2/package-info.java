@@ -1,0 +1,8 @@
+/**
+ * ≈ÆÊ¥‘Ï»À
+ */
+/**
+ * @author Administrator
+ *
+ */
+package com.DesignPattern.abstractFactory.demo2;
