@@ -6,7 +6,7 @@ import java.util.Observer;
 public class God implements Observer {
 
 	public void update(Observable observable, Object obj) {
-		System.out.println(obj.toString());
+		System.out.println("god see : " + obj.toString());
 	}
 
 }
